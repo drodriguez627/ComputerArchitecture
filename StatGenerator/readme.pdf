@@ -1,0 +1,11 @@
+Daniel Rodriguez
+CS-211
+Prof. Nagarakatte
+March 1, 2017
+
+
+For this assignment, many stages were started, and later ended due to it not working. Initially, I had used a hashTable in conjuction with the trie to keep track of the superwords, due to its constant time access. However, when it came time to test, it would not compile fast enough for the last two files. Interestingly, there are still traces of the hashTable, such as keys and indices. The time complexity of words being added to the trie is O(n*k), with the data search being a bit slower at O(m*k). The space complexity is equivalent to O(n*K), since the trie is the size of all the unique words in the dictionary file.
+
+The most challenging part of the assignment was optimizing my code; it was something I had never had to do in a previous class, and forced me to really analyze exactly what my code was doing. 
+
+
