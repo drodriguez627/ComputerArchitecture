@@ -1,0 +1,12 @@
+Daniel Rodriguez
+CS-211
+PRof.Nagarakatte
+4/24/2017
+
+								Assignment 4 Report
+
+	This assignment was the most challenging of any previous ones. Initially, I had trouble thinking of the structs to use to represent a cache, as it was something I had not thought of. Originally, I had thought of a hash table, since it was repeatedly said in class it is a simple way of thinking of a cache. However, I realized there was no need for a struct that complex, and a simple array of sets, containing lines and addresses would work, with a linked list used to represent the FIFO algorithm. 
+	
+	Some problems I ran into during this project was the usage of the linked list. At first, I had used it to represent the entire cache, but my cache hits and misses were very off. After walking through it with pen and paper, I realized a linked list could be used for each set in the cache, ensuring the correct tags were replaced during FIFO. This also helped shorten up my code, as I was able to optimize the FIFO algorthim to simply delete the head, and replace the line that contained the old head.
+
+	Overall, this project was very challenging, and I am glad to be done with it.
